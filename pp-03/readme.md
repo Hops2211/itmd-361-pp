@@ -12,7 +12,8 @@ You’ll then use that to compute the values for the CSS styles below.
 1. Convert the base font-size listed here from pixels to ems:
 
       html {
-        font-size: 19px;       /* 19px/16px=1.1875em */
+        font-size: 19px;      
+		/* 19px/16px=1.1875em */
       }
 
 2.  Convert the base font-size listed here to ems, and set the line-height in ems accordingly:
