@@ -14,12 +14,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 html {
   font-size: 1.25em; /* 20px 1.25em@16px */
-  line-height: 1.2em; /* 24px = 1 gridline*/
-  padding: 1.2em, 0.9em; /* 18px */
+  line-height: 1.2em; /* 24px = 1 gridline 120% */
+  padding: 1.2em 0.9em; /* 18px 4:3 ratio */
 }
 h1 {
-  font-size: 1.69em; /* 33.8px */
-  line-height: 1.42em; /* 48px@33.8px em*/
+  font-size: 1.69em; /* 33.8px@20px   */
+  line-height: 1.42em; /* 48px @33.8px em*/
+  padding-bottom: 0.75em; /* 36px @48px 4:3 ratio */
+}
+
+h2 {
+  font-size: 1.2em; /* 24px @20px */
+  line-height: 1.2em; /* 28.8px @24px 120% */
+  padding-bottom: 0.75em; /* 21.6px @28.8px 4:3 ratio */
+  
 }
 
 p,
