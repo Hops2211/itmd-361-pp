@@ -38,19 +38,22 @@ display:flex;
 #three,
 #two,
 #one {
- 
+  height:25vw;
 }
 
 #three {
-order:3;
+  width: 50vw;
+  order:3;
 }
 
 #two {
-order:2;
+  width: 50vw;
+  order:2;
 }
 
 #one {
-order:1;
+  width: 50vw;
+  order:1;
 }
 
 @media screen and (min-width: 600px) {
