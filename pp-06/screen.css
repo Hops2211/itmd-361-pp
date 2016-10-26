@@ -32,27 +32,28 @@ display:flex;
 
 #content {
 display:flex;
+
+
 }
 
 .flexbox
 #three,
 #two,
 #one {
-  height:25vw;
+ flex-grow:1;
+ height:25vw;
 }
 
 #three {
-  width: 50vw;
+  flex-grow:1;
   order:3;
 }
 
 #two {
-  width: 50vw;
   order:2;
 }
 
 #one {
-  width: 50vw;
   order:1;
 }
 
