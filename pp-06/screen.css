@@ -10,6 +10,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /* ==== MODULAR STYLES === */
+
+display:flex;
 #three,
 #two,
 #one {
@@ -27,26 +29,28 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 /* ==== LAYOUT STYLES ==== */
-#content {
 
+#content {
+display:flex;
 }
 
+.flexbox
 #three,
 #two,
 #one {
-
+ 
 }
 
 #three {
-
+order:3;
 }
 
 #two {
-
+order:2;
 }
 
 #one {
-
+order:1;
 }
 
 @media screen and (min-width: 600px) {
