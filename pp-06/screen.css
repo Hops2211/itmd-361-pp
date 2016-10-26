@@ -58,7 +58,27 @@ display:flex;
 }
 
 @media screen and (min-width: 600px) {
+ #content{
+ 	display:flex;
+ 	flex-flow: row wrap;
+ }
 
+#three {
+  
+  height: 100vw;
+  order:3;
+}
+
+#two {
+  height:40vw;
+  flex: 2 50%;
+  order:2;
+}
+
+#one {
+  height:40vw;
+  flex: 2 50%;
+  order:1;
 }
 
 @media screen and (min-width: 800px) {
